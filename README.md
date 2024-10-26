@@ -1,16 +1,12 @@
 # projeto_flutter_01
 
-A new Flutter project.
+Um novo projeto em Flutter e Dart.
 
-## Getting Started
+## Objetivos
 
-This project is a starting point for a Flutter application.
+Esse projeto tem como objetivos por em práica conhecimentos em pesquisa sobre Flutter e Dart no projeto.
+O objetivo do app é criar uma sistema de e-commerce virtual contendo perfil, login, cadastro
+e corpo principal, com sistema de pesquisa entre outras impelentações.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#ferramentas
+irei utilizar o framework Flutter com dart pois é o mais prático devido aos inúmeros packages e plugins que podem ser implementados.

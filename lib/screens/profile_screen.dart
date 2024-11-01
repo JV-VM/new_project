@@ -14,10 +14,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: amLightColorMap['amBackground'],
+      backgroundColor: ,
       appBar: AppBar(
-        backgroundColor: amLightColorMap['amHatePillar'],
-        foregroundColor: ihmnaimsColors[],
+        backgroundColor: ihnmaimsColors['voidBlack'],
+        foregroundColor: ihnmaimsColors['dispairYellow'],
         title: const Text(
           'Allied Mastecomputer',
         ),

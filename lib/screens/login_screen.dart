@@ -19,11 +19,10 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 LoginCustomTextField(
               icon: const Icon(Icons.account_circle_sharp,
-                  size: 35, color: am),
+                  size: 35,),
               keyboardType: TextInputType.text,
               hintText: 'Insira seu nome',
               labelText: 'Seu nome',
-              controller: usernameController,
               obscureText: false,
             ),
               ],

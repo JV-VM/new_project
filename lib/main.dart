@@ -14,8 +14,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: amLightThemeStyleData,
       debugShowCheckedModeBanner: false,
       initialRoute: '/LoginScreen',
       routes: {

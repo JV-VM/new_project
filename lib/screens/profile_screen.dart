@@ -1,22 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:new_project/functions.dart';
+import 'package:new_project/custom_themes/ready_themes.dart';
 import 'package:new_project/ready_themes.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({super.key});
 
   @override
-  State<MainScreen> createState() => _MainScreenState();
+  State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: amLightColorMap['amBackground'],
       appBar: AppBar(
-        backgroundColor: amLightThemeStyleData.colorScheme.onPrimary,
-        title: const Text('UserName'),
+        backgroundColor: amLightColorMap['amHatePillar'],
+        foregroundColor: amLightColorMap['amTextColor'],
+        title: const Text(
+          'Allied Mastecomputer',
+        ),
       ),
       body: Stack(children: [
         Align(

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:new_project/ready_themes.dart';
+import 'package:new_project/screens/catalogue_screen.dart';
+import 'package:new_project/screens/login_screen.dart';
 import 'package:new_project/screens/profile_screen.dart';
 
 void main() {
@@ -15,9 +17,11 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: amLightThemeStyleData,
       debugShowCheckedModeBanner: false,
-      initialRoute: '/ProfileScreen',
+      initialRoute: '/LoginScreen',
       routes: {
-        '/ProfileScreen': (context) => const MainScreen(),
+        '/LoginScreen': (context) => const LoginScreen(),
+        '/ProfileScreen': (context) => const ProfileScreen(),
+        '/CatalogueScreen': (context) => const CatalogueScreen(),
       },
     );
   }

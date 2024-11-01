@@ -17,7 +17,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       backgroundColor: amLightColorMap['amBackground'],
       appBar: AppBar(
         backgroundColor: amLightColorMap['amHatePillar'],
-        foregroundColor: amLightColorMap['amTextColor'],
+        foregroundColor: ihmnaimsColors[],
         title: const Text(
           'Allied Mastecomputer',
         ),

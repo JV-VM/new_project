@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-ThemeData amLightThemeStyleData = ThemeData(
-  useMaterial3: true,
-  colorScheme: ColorScheme.fromSeed(
-    seedColor: const Color(0xAF81B89A),
-    onPrimary: Color(0xFFFFEA19),
-    onSecondary: Color(0),
-  ),
-);
+final Map<String, Color> ihmnaimsColors = {
+  'despairGray': Color(0xFF2E2E2E),
+  'machineBlue': Color(0xFF1A237E),
+  'memorySilver': Color(0xFFB0BEC5),
+  'rustRed': Color(0xFF8B0000),
+  'survivorYellow': Color(0xFFFFC107),
+  'voidBlack': Color(0xFF000000),
+};

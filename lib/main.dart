@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_project/ready_themes.dart';
 import 'package:new_project/screens/catalogue_screen.dart';
 import 'package:new_project/screens/login_screen.dart';
 import 'package:new_project/screens/profile_screen.dart';

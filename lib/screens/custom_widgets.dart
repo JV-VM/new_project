@@ -20,11 +20,6 @@ class LoginCustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       keyboardType: keyboardType,
-      decoration: amTextFormsStyle(
-        icon,
-        hintText,
-        labelText,
-      ),
       obscureText: obscureText,
       controller: controller,
     );

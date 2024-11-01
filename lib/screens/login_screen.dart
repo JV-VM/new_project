@@ -18,7 +18,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               children: [
                 LoginCustomTextField(
-              icon: const Icon(Icons.account_circle_sharp,
+              icon: Icon(Icons.account_circle_sharp,
                   size: 35,),
               keyboardType: TextInputType.text,
               hintText: 'Insira seu nome',

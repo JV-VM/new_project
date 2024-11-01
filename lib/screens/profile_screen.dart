@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_project/custom_themes/ready_themes.dart';
 import 'package:new_project/ready_themes.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -14,7 +13,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ,
+      backgroundColor: ihnmaimsColors['dispairGray'],
       appBar: AppBar(
         backgroundColor: ihnmaimsColors['voidBlack'],
         foregroundColor: ihnmaimsColors['dispairYellow'],

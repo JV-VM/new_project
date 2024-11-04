@@ -13,10 +13,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ihnmaimsColors['dispairGray'],
+      backgroundColor: ihnmaimsColors['despairGray'],
       appBar: AppBar(
         backgroundColor: ihnmaimsColors['voidBlack'],
-        foregroundColor: ihnmaimsColors['dispairYellow'],
+        foregroundColor: ihnmaimsColors['survivorYellow'],
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.popAndPushNamed(context, '/CatalogueScreen');
+              },
+              icon: const Icon(Icons.home))
+        ],
         title: const Text(
           'Allied Mastecomputer',
         ),
